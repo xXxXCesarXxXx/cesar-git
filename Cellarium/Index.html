@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Style.css">
+  <script src="js/script.js" defer></script>
+
+  <title>Document</title>
+  </head>
+
+ <body>
+
+    <header class="header">
+        <div class="logo">
+          <img class="bar-logo" src="/Imagenes/Imagen2.png" alt="logo-bar">
+          <img class="text-logo" src="/Imagenes/logo_cellarium.png" alt="logo-text">
+        </div>
+        <nav class="nav-links">
+          <a class=" btn Index" href="Index.html">Catalogo</a>
+          <a class="btn about" href="about.html">Acerca de nosotros</a>
+          <a class="btn contacto" href="contacto.html">Contacto</a>
+        </nav>
+        <a class="btn registro" href="registro.html">Iniciar sesion</a>
+        <a class="btn login" href="login.html">Registrate</a>
+    </header>
+
+
+  <div class="catalogo">
+
+    <div class="card">
+      <img class="card-img" src="https://imgs.search.brave.com/jQ2m5uXxELYa5NmSKEi8GeHMYYbktuNBt6QlVsAW4bI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzUxbUoxWkpnME5M/LmpwZw" alt="Producto 2">
+      <h3 class="card-title">Soporte para flexiones</h3>
+    
+      <p>Osam blanditiis enim, similique dolor odit consequatur.</p>
+    
+      <span class="hide" id="hideText_card1">
+        <p>¿Necesitas un soporte resistente para tu rutina de flexiones? Este soporte para flexiones es la elección perfecta. Con un diseño ergonómico y materiales duraderos, te proporcionará el apoyo necesario para llevar tu entrenamiento al siguiente nivel.</p>
+      </span>
+    
+      <button class="readMore_btn" id="hideText_btn" onclick="toggleText(this)">Ver más</button>
+    
+      <p class="card-text">Precio: $24.99</p>
+      <button class="card-button">Añadir al carrito</button>
+    </div>
+    
+
+    <div class="card">
+      <img class ="card-img" src="https://imgs.search.brave.com/6VQxpv36cjLg9JtnoMuhl5y-vLGC3K8NwrrT1IVP_EQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50cy5tZWRpYWRl/Y2F0aGxvbi5jb20v/cDExMDM1ODgvayQ1/Y2M3YzI3OWYzMmNi/YmQ0NGE1YWJjNGFi/MDY1Y2Q1NC9iYXJy/YXMtcGFyYS1kaXBz/LXRyYWluaW5nLXN0/YXRpb24tMTAwLmpw/Zz9mb3JtYXQ9YXV0/byZmPTgwMHg4MDA" alt="Producto 2">
+      <h3 class="card-title">Paralelas para fondos</h3>
+      <p>Osam blanditiis enim, similique dolor odit consequatur.</p>
+    
+      <span class="hide" id="hideText_card2">
+        <p>¿Necesitas un soporte resistente para tu rutina de flexiones? Este soporte para flexiones es la elección perfecta. Con un diseño ergonómico y materiales duraderos, te proporcionará el apoyo necesario para llevar tu entrenamiento al siguiente nivel.</p>
+      </span>
+    
+      <button class="readMore_btn" id="hideText_btn" onclick="toggleText(this)">Ver más</button>
+      <p class="card-text">Precio: $49.99</p>
+      <button class="card-button">Añadir al carrito</button>
+    </div>
+
+    <div class="card">
+      <img class ="card-img" src="https://imgs.search.brave.com/i1hZtIu5v5QdicDHXFqsugx1DGDC0PrSRPJFzU-Hks4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS5teC9tZy9n/bS8zcHAvYXNyLzc3/YmRiZjc4LWU1ZTUt/NDMwNS04YjRkLWY0/YzE2ZmQ2NmYzYS5l/MGNkYWM0YTg0ZGE0/NGQxYzcxNTg5YzMy/N2YxNTdiMy5qcGVn/P29kbkhlaWdodD02/MTImb2RuV2lkdGg9/NjEyJm9kbkJnPUZG/RkZGRg" alt="Producto 2">
+      <h3 class="card-title">Barra dos en uno</h3>
+
+      <p class="card-text">Precio: $79.99</p>
+      <button class="card-button">Añadir al carrito</button>
+    </div>
+
+    <div class="card">
+      <img class ="card-img" src="https://imgs.search.brave.com/c8O4l9-7QP-fUQHOtrb70GCv5Cp5BCQEy5tGyRs7GZU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/MzFibXBGM1JIaFMu/anBn" alt="Producto 2">
+      <h3 class="card-title">Estacion multifuncional</h3>
+
+      <p class="card-text">Precio: $149.99</p>
+      <button class="card-button">Añadir al carrito</button>
+    </div>
+
+    <div class="card">
+      <img class ="card-img" src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/5a026d04-c646-4bb8-a719-bf33d5500d6e.fffeda15450cf36ac5a835540333fb3b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Producto 2">
+      <h3 class="card-title">Estrella</h3>
+
+      <p class="card-text">Precio: $4.99</p>
+      <button class="card-button">Añadir al carrito</button>
+    </div>
+
+    <div class="card">
+      <img class ="card-img" src="https://www.cintademoebius.com/wp-content/uploads/2019/04/rompecabezas-alambre.jpg" alt="Producto 2">
+      <h3 class="card-title">El clavo</h3>
+
+      <p class="card-text">Precio: $4.99</p>
+      <button class="card-button">Añadir al carrito</button>
+    </div>
+
+    <div class="card">
+      <img class ="card-img" src="https://images-na.ssl-images-amazon.com/images/I/71VtrYjpEyL._AC_UL210_SR210,210_.jpg" alt="Producto 2">
+      <h3 class="card-title">Remolino</h3>
+
+      <p class="card-text">Precio: $4.99</p>
+      <button class="card-button">Añadir al carrito</button>
+    </div>
+
+    <div class="card">
+      <img class ="card-img" src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/3fe5d629-b15d-41d8-b1d0-790bdcaa1f98.feb80b58215e93be734a0690351dc033.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Producto 2">
+      <h3 class="card-title">El carcelario</h3>
+
+      <p class="card-text">Precio: $4.99</p>
+      <button class="card-button">Añadir al carrito</button>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
